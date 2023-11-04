@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+.head{
+    /* background-color: greenyellow; */
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    height: 300px;
+    color: white;
+}
+
+nav i{
+    
+    padding-right: 800px;
+    padding-left: 25px;
+}
+
+nav i a{
+    text-decoration: none;
+    color: white;
+}
+
+.login{
+    display: inline-block;
+}
+
+.login li{
+    display: inline-block;
+    
+    padding: 30px;
+    
+}
+
+.login li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.cards{
+    width: 25%;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 20px;
+}
+
+.cards:hover{
+    box-shadow: 0 1.4px 2.8px 2px greenyellow;
+}
+
+.container{
+    display: flex;
+}
+img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+}
+.title1{
+    width: 300px;
+    padding-left: 400px;
+    margin-top: 60px;
+}
+.description{
+    
+    text-align: center;
+}
+
+.col-head{
+    padding: 20px;
+}
+
+.cards button{
+    background-color: coral;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.img1{
+    position: relative;
+
+}
+.col-title{
+    position: absolute;
+    top: 70%;
+    color: white;
+}
+.col-img{
+    width: 20%;
+    padding: 20px;
+    
+}
+.col{
+    display: flex;
+}
+.about{
+    font-size: 25px;
+    line-height: 30px;
+    padding: 20px;
+}
+
+.footer{
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.mobile-image{
+    width: 24%;
+}
+.app{
+    display: flex;
+}
+
+.box-button{
+    display: flex;
+}
+.download-place{
+    display: flex;
+}
+.box{
+    padding: 8px;
+}
+.box input{
+    font-size: 20px;
+    padding: 10px;
+}
+.link-box{
+    padding: 8px;
+}
+.link-box button{
+    background-color: red;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.mobile-info{
+    line-height: 60px;
+}
+.app{
+    justify-items: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.mobile-image{
+    padding-left: 160px;
+}
+
+.download-place img{
+    padding: 20px;
+}
+.link-box button{
+    border-radius: 5px;
+}
+
+.options .options-list a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+}
+.options-title{
+    padding: 20px;
+}
+.options-subtitle{
+    padding: 20px;
+}
+.options-list{
+    padding: 20px;
+}
+
+.restaurants .restaurants-list a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.restaurant-title{
+    padding: 20px;
+}
+.restaurants-list{
+    padding: 20px;
+   
+}
